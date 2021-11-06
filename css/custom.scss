@@ -1,0 +1,9 @@
+// main content section
+@mixin change_mainContainer{
+    height: 180px;
+    overflow: hidden;
+    
+}
+.container-fluid{
+    @include change_mainContainer;  
+}
